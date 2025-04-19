@@ -423,6 +423,9 @@ h2 {
   color: #f3268c;
   border: 1px solid #f3268c;
 }
+.serviceTextBox{
+  gap: 2rem;
+}
 .serviceTitle {
   font-size: 20px;
   margin-bottom: 1rem;
