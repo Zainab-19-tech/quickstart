@@ -5,13 +5,17 @@
     padding: 2rem;
   }
   .hero {
-    height: 70vh;
+    height: 100vh;
   }
   .hero-bg img {
-    height: 70vh;
+    height: 100vh;
   }
   .featureTextBox {
     width: 100%;
+  }
+
+  .header{
+    padding-top: 5rem;
   }
 }
 
@@ -37,9 +41,6 @@
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
   }
-}
-
-@media (max-width: 950px) {
   .navList {
     display: none;
   }
@@ -74,21 +75,35 @@
   }
 }
 
-@media (max-width:500px){
-  .clients{
+@media (max-width: 700px) {
+  .header {
+    padding-top: 5rem;
+  }
+
+  .hero {
+    height: 110vh;
+  }
+
+  .hero-bg img{
+    height: 110vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .clients {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
   }
   .footer,
   .contactInput,
-  .contactInfoBoxes{
+  .contactInfoBoxes {
     grid-template-columns: 1fr;
   }
-  .accordion{
+  .accordion {
     width: 100%;
   }
-  .hide{
+  .hide {
     display: none;
   }
 }
