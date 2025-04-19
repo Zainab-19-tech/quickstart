@@ -73,7 +73,7 @@
   .stick .open {
     display: none;
   }
-  .serviceInfoBoxes{
+  .serviceInfo{
     gap: 2rem;
   }
 }
