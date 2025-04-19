@@ -73,6 +73,9 @@
   .stick .open {
     display: none;
   }
+  .serviceInfoBoxes{
+    gap: 2rem;
+  }
 }
 
 @media (max-width: 700px) {
